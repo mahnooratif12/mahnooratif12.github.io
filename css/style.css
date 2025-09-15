@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+header {
+  background: #111;
+  color: #fff;
+  padding: 1rem;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: #f4f4f4;
+}
+section {
+  padding: 2rem;
+}
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+.project-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.btn {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
